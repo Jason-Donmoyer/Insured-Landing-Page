@@ -1,9 +1,66 @@
+
+:root {
+    /* Colors */
+    --dark-violet: hsl(256, 26%, 20%);
+    --grayish-blue: hsl(216, 30%, 68%);
+    --very-dark-violet: hsl(270, 9%, 17%);
+    --dark-grayish-violet: hsl(273, 4%, 51%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+    /* Breakpoints */
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    /* Fonts */
+    --heading-font: 'DM Serif Display', serif;
+    --body-font: 'Karla', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font)
+}
+
 #nav-menu {
     display: none;
 }
 
-main {
-    height: 500px;
-    width: 100%;
+#mobile-nav {
+    display: none;
+}
+
+.main-image {
+    height: 600px;
+    max-width: 100%;
     background-image: url('../images/image-intro-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background-color: var(--dark-violet);
+}
+
+.intro h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+
+footer {
+    background-image: url('../images/bg-pattern-footer-mobile.svg');
 }
