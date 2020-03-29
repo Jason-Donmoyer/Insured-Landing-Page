@@ -1,0 +1,9 @@
+#nav-menu {
+    display: none;
+}
+
+main {
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/image-intro-mobile.jpg');
+}
